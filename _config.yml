@@ -31,12 +31,12 @@ favicon: 'favicon.ico'
 #tumblr: 'mytumblr'
 #weibo: 'myweibo'
 #vk: 'myvk'
-blog_url: 'blog.yrjo.eu'
+blog: 'blog.yrjo.eu'
 email: 'yrjo@tuta.io'
-cv_url: 'yrjo.eu/cv'
+cv: 'yrjo.eu/cv'
 #messenger: 'myfbchat'
 
-social-links-order: [blog_url, email, cv_url]
+social-links-order: [blog, email, cv]
 
 # Yaml manifest of supported social links
 # Requirements:
@@ -147,15 +147,15 @@ social-links:
   - name: quora
     url-pattern: www.quora.com/profile/__USERNAME__
 
-  - name: blog_url
+  - name: blog
     url-pattern: '__USERNAME__'
     icon-class: fas fa-2x fa-blog
 
   - name: email
     url-scheme: 'mailto:'
     url-pattern: '__USERNAME__'
-    icon-class: far fa-2x fa-envelope-open
+    icon-class: fas fa-2x fa-envelope-open
 
-  - name: cv_url
+  - name: cv
     url-pattern: '__USERNAME__'
     icon-class: fas fa-2x fas fa-address-card
