@@ -3,7 +3,7 @@ remote_theme: epidrome/cover-card@main
 
 # Title and tag line
 title: 'Jorge Serrano Molina'
-description: 'Ferroviario y amigo del ferrocarril.'
+#description: 'Ferroviario y amigo del ferrocarril.'
 
 # Images
 avatar: 'avatar.jpg'
