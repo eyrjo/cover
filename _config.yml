@@ -149,7 +149,7 @@ social-links:
 
   - name: blog
     url-pattern: '__USERNAME__'
-    icon-class: fas fa-2x fa-blog
+    icon-class: fas fa-2x fa-compass
 
   - name: email
     url-scheme: 'mailto:'
